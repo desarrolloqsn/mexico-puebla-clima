@@ -26,7 +26,7 @@ const FormLogin = () => {
    
       dispatch(loginSuccess(user));
       setRedirectToDashboard(true); // Establece el estado para redireccionar a "/dashboard"
-    } else if (username === 'qsnmex' && password === 'qsnmex2024') {
+    } else if (username === 'qsnpuebla' && password === 'qsnpuebla2024') {
       const user = {
         username: 'qsnvzla',
         roles: ['user'],
